@@ -427,7 +427,7 @@ class _StackedSliderState extends State<StackedSlider> {
 
     return GestureDetector(
       onHorizontalDragEnd: (d) {
-        print('vel: ${d.primaryVelocity}');
+        // print('vel: ${d.primaryVelocity}');
         if (d.primaryVelocity < 0) {
           scrollStackReverse();
         } else if (d.primaryVelocity > 0) {
@@ -435,7 +435,7 @@ class _StackedSliderState extends State<StackedSlider> {
         }
       },
       onHorizontalDragUpdate: (d) {
-        print('${d.globalPosition.dx}');
+        // print('${d.globalPosition.dx}');
       },
       child: Container(
         width: mediaQuery.size.width,

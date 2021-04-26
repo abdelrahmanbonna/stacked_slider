@@ -1,8 +1,7 @@
 name: stacked_slider
 description: A new Flutter package.
 version: 0.0.1
-author:
-homepage:
+repository: "https://github.com/abdelrahmanbonna/stacked_slider"
 
 environment:
   sdk: ">=2.8.0 <3.0.0"
