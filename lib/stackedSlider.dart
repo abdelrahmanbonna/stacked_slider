@@ -434,9 +434,6 @@ class _StackedSliderState extends State<StackedSlider> {
           scrollStack();
         }
       },
-      onHorizontalDragUpdate: (d) {
-        // print('${d.globalPosition.dx}');
-      },
       child: Container(
         width: mediaQuery.size.width,
         child: Stack(
